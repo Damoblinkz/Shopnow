@@ -1,0 +1,224 @@
+<! DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>shop now homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+<!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--fontawesome cdn start-->
+<link href="https://kit-pro.fontawesome.com/releases/v5.12.1/css/pro.min.css" rel="stylesheet">
+<!-- JQUERY CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+  </head>
+  <body>
+<!---main head start--->
+    <nav class="navbar">
+      <div class="menu nav-item">
+        <i class="fal fa-bars"></i>
+      </div>
+      <div class="top-menus">
+     <a class="name navbar-brand" href="index.html">SHOPNOW</a>
+        
+<!----nav icons----->
+        <div class="navicons ">
+   <!-- desktop search bar -->
+          <div class="desktop-search">
+<input type="search" placeholder="search here">
+<button><i class="fal fa-search"></i></button>
+</div>
+<!-- mobile search bar -->
+          <div class="search">
+            <i class="fal fa-search"></i>
+          </div>
+          <!-- cart and profile -->
+     <div class="cart">
+       <i class="fal fa-shopping-bag"></i>
+          </div>
+          <div class="profile">
+         <a  href="access.html"class="fal fa-user"></a>
+         </div>
+</div>
+      </div>
+    </nav>
+    <!--side nav-->
+    <div class="side-nav">
+     <div class="close-btn">
+       <i class="fal fa-times"></i>
+     </div>
+     <div class="sidenav-menu">
+       <div class="sidenav-item"><a href="index.html">HOME</a></div>
+   <p class="sidenav-head">CATEGORIES</p>
+   <div class="sidenav-item"><a href="#">CLOTHES</a></div>
+   <div class="sidenav-item"><a href="#">SHOES</a></div> 
+   <div class="sidenav-item"><a href="#">BAGS</a></div> 
+   <div class="sidenav-item"><a href="#">BODY FRAGRANCE</a></div>
+   <div class="sidenav-item"><a href="#">WIGS</a></div>
+   <div class="sidenav-item"><a href="#">JEWELRIES</a></div>  
+   <p class="sidenav-head">Shopnow</p>
+       <div class="sidenav-item">
+       <a class="sub-btn">CONTACT US<i class="fas fa-angle-right dropdown"></i></a>
+         <div class="sidenav-submenu">
+      <a href="#" class="sidenav-subitem">
+  				<i class="fas fa-facebook"></i>Facebook</a>
+           <a href="#" class="sidenav-subitem">Instagram</a>
+     <a href="#" class="sidenav-subitem">
+       <i class="fas"></i>Email</a>
+           <a href="#" class="sidenav-subitem">WhatsApp</a> 
+         </div>
+       </div>
+       <div class="sidenav-item">
+         <a class="sub-btn">ABOUT US<i class="fas fa-angle-right dropdown"></i></a>
+         <div class="sidenav-submenu">
+           <a href="#" class="sidenav-subitem">policy</a>
+           <a href="#" class="sidenav-subitem">history</a>
+         </div>
+       </div>
+     </div>
+   </div> 
+
+    </div>
+    <!--searchbox overlay-->
+    <div id="myOverlay" class="overlay">
+      <span class="closebtn" id="closesearch" title="Close Overlay"  >
+<i class="fal fa-times"></i
+      ></span>
+      <div class="overlay-content">
+        <form action="#">
+          <div class="searcharea">
+            <input type="search" placeholder="Search-here" class="searchbox" />
+            <button type="submit"><i class="fas fa-search"></i></button>
+          </div>
+        </form>
+      </div>
+    </div>
+ <!-- Carousel -->
+<div id="slideShow" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#slideShow" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#slideShow" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#slideShow" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#slideShow" data-bs-slide-to="3"></button> 
+    <button type="button" data-bs-target="#slideShow" data-bs-slide-to="4"></button>
+    <button type="button" data-bs-target="#slideShow" data-bs-slide-to="5"></button> 
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/banner.jpeg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="images/banner1.jpeg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="images/banner2.jpeg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="images/banner3.jpeg" class="d-block w-100">
+    </div> 
+    <div class="carousel-item">
+      <img src="images/banner4.jpeg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="images/banner5.jpeg" class="d-block w-100">
+    </div> 
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#slideShow" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#slideShow" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div> 
+<!-- carousel ends -->
+ <section class="section-pd">
+    				<!-- cards start -->
+  <div class="pictures row g-0">
+    <div class="pic1 product-image col-6 col-md-4 col-lg-3 col-xl-2">
+      <img src="images/pink-shirt.jpeg" />
+       <p>summer wears</p>
+     </div>
+    <div class="pic2 product-image col-6 col-md-4 col-lg-3 col-xl-2">
+       <img src="images/redshort.jpeg" />
+       <p>short</p>
+     </div>
+    <div class="pic3 product-image col-6 col-md-4 col-lg-3 col-xl-2">
+        <img src="images/sulphur.jpeg" />
+        <p>men hat</p>
+    </div>
+    <div class="pic4 product-image col-6 col-md-4 col-lg-3 col-xl-2">
+         <img src="images/brown.jpeg" />
+        <p>ladies gown</p>
+      </div>
+    <div class="pic5 product-image col-6 col-md-4 col-lg-3 col-xl-2">
+      <img src="images/darkgreen.jpeg" />
+       <p>Couples wears</p>
+     </div>
+    <div class="pic6 product-image col-6 col-md-4 col-lg-3 col-xl-2">
+       <img src="images/beige.jpeg" />
+       <p>Ladies beiges</p>
+     </div>
+   <div class="pic7 product-image col-6 col-md-4 col-lg-3 col-xl-2">
+        <img src="images/shoe.jpeg" />
+        <p>footwears</p>
+    </div>
+   <div class="pic8 product-image col-6 col-md-4 col-lg-3 col-xl-2">
+      <img src="images/midgreen.jpeg" />
+       <p>sport Wears</p>
+    </div>
+   <div class="pic9 product-image col-6 col-md-4 col-lg-3 col-xl-2">
+     <img src="images/underwear.jpeg" />
+       <p>Underwears</p>
+    </div>
+   <div class="pic10 product-image col-6 col-md-4 col-lg-3 col-xl-2">
+      <img src="images/mensuit.jpeg" />
+       <p>Suits</p>
+    </div>
+  <div class="pic11 product-image col-6 col-md-4 col-lg-3 col-xl-2">
+     <img src="images/bikiniwears.jpeg" />
+       <p>Bikini wears</p>
+     </div>
+  <div class="pic12 product-image col-6 col-md-4 col-lg-3 col-xl-2">
+     <img src="images/cardigan.jpeg" />
+       <p>Cardigans</p>
+    </div>
+      </div>
+      <!-- cards ends -->
+      <div class="brand row">
+    <div class="ashluxe brands-container col-sm-6">
+     <img src="images/actual-wear.jpeg" />
+          <h2>ACTUAL WEARS</h2>
+          <p>model fit</p>
+          <a href="#">Shop the brand</a>
+      </div>
+      <div class="nike brands-container col-sm-6">
+       <img src="images/airforce1.jpeg" />
+          <h2>NIKE</h2>
+          <p>model fit</p>
+          <a href="#">Shop the brand</a>
+        </div>
+      </div>
+    </section>
+    <footer class="footermobile">
+ <div class="copyright">
+<p> copyright &copy; <span id="year"></span></p>
+</div>
+<div class="terms">
+<p class="privacy">privacy & cookies</p>|
+<p class="con">Ts & Cs</p>
+</div>
+</footer>
+<!----javascript & jquery----->
+    <script src="js/script.js"></script>
+    <script src="js/jquery.js"></script>
+<!--  Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script> 
+  </body>
+</html>
